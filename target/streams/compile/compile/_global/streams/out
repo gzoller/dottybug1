@@ -1,0 +1,19 @@
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/wmy965/git/dottybug1/src/main/scala/Main.scala:8:28 -----------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m8 |[0m    println(LookSee.diveInto[[35mscala.collection.immutable.HashSet[String][0m])[0m
+[0m[[0m[31merror[0m] [0m[0m  |            [31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m  |Exception occurred while executing macro expansion.[0m
+[0m[[0m[31merror[0m] [0m[0m  |java.util.NoSuchElementException: head of empty list[0m
+[0m[[0m[31merror[0m] [0m[0m  |	at scala.collection.immutable.Nil$.head(List.scala:629)[0m
+[0m[[0m[31merror[0m] [0m[0m  |	at scala.collection.immutable.Nil$.head(List.scala:628)[0m
+[0m[[0m[31merror[0m] [0m[0m  |	at dotty.tools.dotc.core.SymDenotations$SymDenotation.recurWithParamss$1(SymDenotations.scala:403)[0m
+[0m[[0m[31merror[0m] [0m[0m  |	at dotty.tools.dotc.core.SymDenotations$SymDenotation.recurWithParamss$1(SymDenotations.scala:403)[0m
+[0m[[0m[31merror[0m] [0m[0m  |	at dotty.tools.dotc.core.SymDenotations$SymDenotation.paramSymss(SymDenotations.scala:419)[0m
+[0m[[0m[31merror[0m] [0m[0m  |	at dotty.tools.dotc.tastyreflect.ReflectionCompilerInterface.Symbol_paramSymss(ReflectionCompilerInterface.scala:1771)[0m
+[0m[[0m[31merror[0m] [0m[0m  |	at dotty.tools.dotc.tastyreflect.ReflectionCompilerInterface.Symbol_paramSymss(ReflectionCompilerInterface.scala:1770)[0m
+[0m[[0m[31merror[0m] [0m[0m  |	at scala.tasty.Reflection$SymbolOps$.paramSymss(Reflection.scala:2275)[0m
+[0m[[0m[31merror[0m] [0m[0m  |	at com.boom.LookSee$.getTypeParameters(LookSee.scala:33)[0m
+[0m[[0m[31merror[0m] [0m[0m  |	at com.boom.LookSee$.unwindType(LookSee.scala:24)[0m
+[0m[[0m[31merror[0m] [0m[0m  |	at com.boom.LookSee$.diveIntoImpl(LookSee.scala:15)[0m
+[0m[[0m[31merror[0m] [0m[0m  |[0m
+[0m[[0m[31merror[0m] [0m[0m  | This location contains code that was inlined from Main.scala:8[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
